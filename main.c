@@ -35,7 +35,7 @@ int main()
 	printf("%d", fib1(n));
 	getchar();
 
-		int n = 9;
+    int n = 9;
 	printf("%d", fib(n));
 	getchar();
 
