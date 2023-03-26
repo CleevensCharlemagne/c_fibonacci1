@@ -15,6 +15,13 @@ int fib(int n)
 	int f[n + 1];
 	int i;
 
+	/* 0th and 1st number of the series are 0 and 1*/
+	f[0] = 0;
+	f[1] = 1;
+
+
+
+	return f[n];
 }
 
 
