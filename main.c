@@ -9,6 +9,14 @@ int fib1(int n)
 }
 
 // Fibonacci Series using Dynamic Programming
+int fib(int n)
+{
+	/* Declare an array to store Fibonacci numbers. */
+	int f[n + 1];
+	int i;
+
+}
+
 
 int main()
 {
