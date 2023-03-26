@@ -8,10 +8,12 @@ int fib1(int n)
 	return fib(n - 1) + fib(n - 2);
 }
 
+// Fibonacci Series using Dynamic Programming
+
 int main()
 {
 	int n = 9;
-	printf("%d", fib(n));
+	printf("%d", fib1(n));
 	getchar();
 	return 0;
 }
